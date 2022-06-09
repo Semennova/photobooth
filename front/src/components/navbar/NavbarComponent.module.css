@@ -1,0 +1,36 @@
+.app_navbar {
+    border-radius: 0 0 5px 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.app_navbar_content {
+    display: 'flex';
+    justify-content: space-between;
+
+}
+
+.app_icon {
+    padding-bottom: 3px
+}
+
+.nav_link{
+    text-decoration: none;
+    color: #fff
+}
+
+.active{
+    text-decoration: underline;
+    color: gainsboro
+}
+
+.active:hover{
+    color: gainsboro;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav_link:hover{
+    color: gainsboro;
+    cursor: pointer;
+    text-decoration: none;
+}
